@@ -1,0 +1,6 @@
+GET http://localhost:5001/sentiment
+content-type: application/json
+
+{
+    "text": "I love eating cake, it's delicious."
+}
