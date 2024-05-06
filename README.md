@@ -1,4 +1,4 @@
-# Embeddings Generation API
+# Sentiment Analysis API
 
 ```bash
 conda create -n sentiment-api python=3.12
