@@ -10,6 +10,7 @@ python download_models.py
 # Build
 ```bash
 docker image build -t sentiment-api .
+docker save sentiment-api > sentiment-api.tar
 ```
 
 # Run
