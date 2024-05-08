@@ -7,8 +7,9 @@ app = Flask(__name__)
 distilled_student_sentiment_classifier = pipeline(
     'text-classification',
     model='model',
-    return_all_scores=True
+    top_k=None,
 )
+
 @app.route('/')
 def index():
     return "<p>Listening</p>"
