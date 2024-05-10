@@ -14,7 +14,7 @@ def index():
     return "<p>Listening</p>"
 
 @app.route('/sentiment', methods=['GET', 'POST'])
-def embedding():
+def sentiment():
     data = request.json
     text = data.get('text', '')
 
